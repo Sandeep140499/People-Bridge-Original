@@ -1,2 +1,2 @@
 click to see live
-https://people-bridge-ede24d.netlify.app/
+https://people-bridge-1463f3.netlify.app/
