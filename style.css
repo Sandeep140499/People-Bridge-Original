@@ -5,6 +5,10 @@
 .margininnavbar{
   font-family: 'Montserrat UltraLight';
   margin-left: 120px !important;
+  --bs-gutter-x: 0rem;
+}
+.dropdown-menu{
+  visibility: visible;
 }
 .navbarheading{
     font-weight: 400;
@@ -15,7 +19,16 @@
     font-family: 'Montserrat';
     transition: color 0.3s,background-color 0.3s;
 }
-
+.allheadingscontents{
+  color: #3c3950;
+  line-height: 53px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  margin: 1.2em 0;
+  letter-spacing: .05em;
+}
 .fontsizeofDriven{
   font-family: 'Montserrat UltraLight';
    font-size: 55px;
@@ -38,8 +51,6 @@
   background-size: 100% 100%;
   background-image: url(./Images/OIP.jpeg);
 }
-
-
 .color12columb{
   font-family: 'Montserrat UltraLight';
     background-color: #fff;
@@ -55,6 +66,10 @@
 }
 .ourworkproduct{
     background-image: url(./Images/our-work-process-back.jpg);
+
+}
+.workprogessmargin{
+    --bs-gutter-x: 0rem;
 }
 .colorCode{
     color: #fff;
@@ -63,16 +78,11 @@
     font-family: 'Source Sans Pro';
     
 }
-
-
-
-
 *{
   
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  
   .titleSectionTwo
   {
     font-family: 'Montserrat UltraLight';
@@ -80,13 +90,11 @@
     font-size:1.4em;
     font-weight:700;
   }
-  
   .titleSectionThree
   {
     font-family: 'Montserrat UltraLight';
     font-size:12px;
   }
-  
   .centerd
   {
     font-family: 'Montserrat UltraLight';
@@ -142,7 +150,6 @@
     font-weight: 400;
   
   }
-  
   .property-image
   {
     font-family: 'Montserrat UltraLight';
@@ -187,8 +194,6 @@
     text-align:center;
     /* font-size: 22px; */
   }
-
-  
   .property-card:hover .property-description
   {
     font-family: 'Montserrat UltraLight';
@@ -227,7 +232,7 @@
 .backroungyellow{
   font-family: 'Montserrat UltraLight';
     background-color: #eeee22;
-    margin-left: 90px;
+    /* margin-left: 90px; */
 }
 .fontsizecallthe{
   font-family: 'Montserrat UltraLight';
@@ -268,11 +273,9 @@
     color: #fff;
     background-color: #3c3950 !important;
 }
+
 .loadmoresubmitt{
-     /* color: #fff; */
-}
-.loadmoresubmitt{
-    height: 50px;
+    /* height: 50px; */
     line-height: 50px;
     padding: 0 25px;
     font-size: 19px;
@@ -549,6 +552,11 @@ articless {
   font-family: 'Montserrat UltraLight';
     font-size: 20px;
 }
+.marginindesktopverion {
+  font-family: 'Montserrat UltraLight';
+  margin-top: 0px !important;
+  padding: 59px !important;
+}
 .buttonradius{
   font-family: 'Montserrat UltraLight';
     border-radius: 49px;
@@ -558,6 +566,10 @@ articless {
     position: fixed;
     bottom: 0px;
 }
+.ourworkDesktop{
+  font-size: 65px;
+  font-weight: 700px;
+}
 .hrfooter{ 
   font-family: 'Montserrat UltraLight';
     border:         none;
@@ -565,11 +577,15 @@ articless {
     height:         20px;
     width:          1px;       
 }
+.responsiveformsmessage{
+  padding-right: 0px; 
+  padding-left: 0px;
+}
 
 /* navbra two start here  */
 .navbartwopadding{
-  padding-right: 42px !important;
-    padding-left: 43px !important;
+  padding-right: 28px !important;
+    padding-left: 28px !important;
     border-radius: 40px;
     font-family: 'Montserrat UltraLight';
     font-size: 16px !important;
@@ -600,13 +616,16 @@ articless {
                   }
   .loadmoresubmitted{
     font-family: 'Montserrat UltraLight';
-    background-color: #181828;
+    /* background-color: #181828; */
     color: white !important;
   }
   .responsiveMargin{
     /* margin-left: 20px !important; */
     padding: 21px;
     font-family: 'Montserrat UltraLight';
+  }
+  .ourServices{
+    font-size: 39px;
   }
   .provideSpacefromtop {
     font-family: 'Montserrat UltraLight';
@@ -636,7 +655,7 @@ articless {
 }
 .navbar-toggler{
   padding-right: 157px !important;
-  padding-left: 150px !important;
+  padding-left: 173px !important;
 }
 .property-card:hover .property-description
 {
@@ -689,7 +708,87 @@ articless:has(:hover, :focus) {
 .nav-item :hover{
   color: rgb(71, 71, 223) !important;
 }
-
+.responsiveformsmessage{
+      padding-right: 0px; 
+    padding-left: 0px;
+}
+.backroungyellow {
+  font-family: 'Montserrat UltraLight';
+  background-color: #eeee22;
+  margin-left: 0px;
+}
+.navbar-expand-lg>.container {
+  padding-right: 0px;
+  padding-left: 20px;
+}
+.marginindesktopverion {
+  font-family: 'Montserrat UltraLight';
+  margin-top: 0px !important;
+  padding: 10px !important;
+}
 
  }
-   
+ /* ..............................................SEM PAGE START FROM HERE................................ */
+ .semheading{
+  color: #3c3950;
+  line-height: 69px;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 53px;
+  letter-spacing: .05em;
+  margin: 1.2em 0;
+ }
+ .semheadingtwo{
+  margin: 1.2em 0;
+  color: #3c3950;
+  line-height: 53px;
+  letter-spacing: .05em;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+ }
+ .semparagraph{
+  color: #5f727f;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Source Sans Pro';
+ }
+ .semheadingpayclick{
+  color: #3c3950;
+  line-height: 42px;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+    margin: 1.13em 0;
+    letter-spacing: .05em;
+ }
+ /* ................................SEM PAGE END FROM HERE................................ */
+
+   /* .........................SEO START HERE................................... */
+   .headingSEOfirstbackground{
+    background-color: #494c64;
+   }
+   .headingSEOfirst{
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 1;
+    font-size: 50px;
+  
+   }
+   .semparagraph{
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5f727f;
+    font-family: 'Source Sans Pro';
+    margin: 0 0 1.1em;
+   }
+ 
+   /* .........................SEO END HERE..................................................../
