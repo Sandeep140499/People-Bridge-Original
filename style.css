@@ -608,8 +608,16 @@ articless {
     padding: 59px !important;
 
 }
+.footernavbar{
+  text-decoration: none;
+  color: #fff;
+}
 
 @media screen and (max-width: 768px)  {
+  .footernavbar{
+    text-decoration: none !important;
+    color: #fff;
+  }
    .navbarheading  {
     font-family: 'Montserrat UltraLight';
     padding: 7px;
@@ -724,6 +732,9 @@ articless:has(:hover, :focus) {
 .headingSEOfirstlong{
  
   font-size: 42px !important;
+ }
+ .responsiveFooter{
+  padding-bottom: 15px !important;
  }
 .marginindesktopverion {
   font-family: 'Montserrat UltraLight';
