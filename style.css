@@ -719,14 +719,36 @@ articless:has(:hover, :focus) {
 }
 .navbar-expand-lg>.container {
   padding-right: 0px;
-  padding-left: 20px;
+  padding-left: 14px;
 }
+.headingSEOfirstlong{
+ 
+  font-size: 42px !important;
+ }
 .marginindesktopverion {
   font-family: 'Montserrat UltraLight';
   margin-top: 0px !important;
   padding: 10px !important;
 }
 
+/* .....................content page start here .... */
+.semheading {
+  font-size: 24px !important;
+ 
+}
+.allheadingscontents {
+
+  font-size: 28px !important;
+
+}
+.resposniveHeading{
+  font-size: 35px !important;
+}
+.semheadingtwo {
+
+  font-size: 26px !important;
+}
+/* .....................content page end here .... */
  }
  /* ..............................................SEM PAGE START FROM HERE................................ */
  .semheading{
@@ -772,6 +794,18 @@ articless:has(:hover, :focus) {
    /* .........................SEO START HERE................................... */
    .headingSEOfirstbackground{
     background-color: #494c64;
+   }
+   .headingSEOfirstlong{
+    background-color: #494c64;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 1;
+    font-size: 50px;
    }
    .headingSEOfirst{
     color: #fff;
