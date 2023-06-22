@@ -748,6 +748,9 @@ articless:has(:hover, :focus) {
   font-weight: 700;
   text-transform: uppercase;
  }
+ .underlineNavybackground{
+  text-decoration: none;
+ }
  .semparagraph{
   color: #5f727f;
   line-height: 25px;
